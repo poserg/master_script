@@ -17,7 +17,6 @@ goto:eof
 
 :cpfile
 attrib -r %~2
-::copy %~1 %~2
+copy %~1 %~2
 attrib +r %~2
-echo Copy %~1 to %~2
 goto:eof
