@@ -1,3 +1,0 @@
-rev_MasterServers
-MasterServers2
-MasterServers
