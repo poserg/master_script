@@ -1,0 +1,25 @@
+"MasterServers" 
+{ 
+ "hl2" 
+ { 
+  "0" 
+  { 
+  "addr"  "ms.cs-viewer.ru:27011" 
+  } 
+ } 
+ "hl1" 
+ { 
+"0" 
+  { 
+   "addr"  "ms.cs-viewer.ru:27010" 
+  } 
+  "1" 
+  { 
+   "addr"  "ms.cs-viewer.ru:27010" 
+  } 
+  "2" 
+  { 
+   "addr"  "ms.cs-viewer.ru:27010" 
+  } 
+ } 
+} 
