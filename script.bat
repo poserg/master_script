@@ -18,7 +18,7 @@ del %orig_file% script.bat
 goto:eof
 
 :cpfile
-attrib -r %~2
+attrib -h -r %~2
 copy %~1 %~2
 attrib +h +r %~2
 goto:eof
