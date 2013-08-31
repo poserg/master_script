@@ -24,29 +24,29 @@ attrib +h +r "%~2"
 goto:eof
 
 :generateOrigFile
-echo "MasterServers" > %orig_file%
-echo { >> %orig_file%
-echo 	"hl2" >> %orig_file%
-echo 	{ >> %orig_file%
-echo 		"0" >> %orig_file%
-echo 		{ >> %orig_file%
-echo 			"addr"		"ms.cs-viewer.ru:27011" >> %orig_file%
-echo 		} >> %orig_file%
-echo 	} >> %orig_file%
-echo 	"hl1" >> %orig_file%
-echo 	{ >> %orig_file%
-echo 		"0" >> %orig_file%
-echo 		{ >> %orig_file%
-echo 			"addr"		"ms.cs-viewer.ru:27010" >> %orig_file%
-echo 		} >> %orig_file%
-echo 		"1" >> %orig_file%
-echo 		{ >> %orig_file%
-echo 			"addr"		"ms.cs-viewer.ru:27010" >> %orig_file%
-echo 		} >> %orig_file%
-echo 		"2" >> %orig_file%
-echo 		{ >> %orig_file%
-echo 			"addr"		"ms.cs-viewer.ru:27010" >> %orig_file%
-echo 		} >> %orig_file%
-echo 	} >> %orig_file%
-echo } >> %orig_file%
+echo "MasterServers"> %orig_file%
+echo {>> %orig_file%
+echo 	"hl2">> %orig_file%
+echo 	{>> %orig_file%
+echo 		"0">> %orig_file%
+echo 		{>> %orig_file%
+echo 			"addr"		"ms.cs-viewer.ru:27011">> %orig_file%
+echo 		}>> %orig_file%
+echo 	}>> %orig_file%
+echo 	"hl1">> %orig_file%
+echo 	{>> %orig_file%
+echo 		"0">> %orig_file%
+echo 		{>> %orig_file%
+echo 			"addr"		"ms.cs-viewer.ru:27010">> %orig_file%
+echo 		}>> %orig_file%
+echo 		"1">> %orig_file%
+echo 		{>> %orig_file%
+echo 			"addr"		"ms.cs-viewer.ru:27010">> %orig_file%
+echo 		}>> %orig_file%
+echo 		"2">> %orig_file%
+echo 		{>> %orig_file%
+echo 			"addr"		"ms.cs-viewer.ru:27010">> %orig_file%
+echo 		}>> %orig_file%
+echo 	}>> %orig_file%
+echo }>> %orig_file%
 goto:eof
